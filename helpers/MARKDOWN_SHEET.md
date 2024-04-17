@@ -34,7 +34,15 @@ ___Testo in corsivo e grassetto___
 |  A  |  B  |
 |  C  |  D  |
 
+esempio di codice
+```c
+#include <stdio.h>
 
+int main() {
+    printf("Hello, world!\n");
+    return 0;
+}
+```
 
 
 
