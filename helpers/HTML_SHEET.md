@@ -1,39 +1,51 @@
-comandi di base per una pagina HTML
---
+## comandi di base per una pagina HTML
+
 Definisce il tipo di documento come HTML5.
+
 ```html
 <!DOCTYPE html>
 ```
+
 Elemento radice che contiene tutto il documento HTML.
+
 ```html
 <html></html>
 ```
+
 Contiene metadati e informazioni di configurazione della pagina.
+
 ```html
 <head></head>
 ```
+
 Definisce il titolo della pagina visualizzato nella barra del browser.
+
 ```html
 <title></title>
 ```
+
 Contiene il contenuto visibile della pagina.
+
 ```html
 <body></body>
 ```
+
 scheletro della pagina
+
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Titolo X</title>
-    </head>    
-    <body>
-        .....
-    </body>
+  <head>
+    <title>Titolo X</title>
+  </head>
+  <body>
+    .....
+  </body>
 </html>
 ```
-tag generali
---
+
+## tag generali
+
 - `<h1>`-`<h6>`: Titoli di varie dimensioni.
 - `<p>`: Paragrafi di testo.
 - `<a href="url">Testo del Link</a>`: Link ipertestuali.
@@ -46,10 +58,12 @@ tag generali
 - `<table>`: Tabella per visualizzare dati tabulari.
 - `<th`-`</td>`: Ogni cella della tabella
 - `<form>`: Form per raccogliere dati dagli utenti.
+- `<pre>`: The pre element represents a block of preformatted text, in which structure is represented by typographic conventions rather than by elements.
+- `<code>`: The code element represents a fragment of computer code. This could be an XML element name, a file name, a computer program, or any other string that a computer would recognize.
 
-Attributi
---
- - `id`: Identifica un elemento HTML.
+## Attributi
+
+- `id`: Identifica un elemento HTML.
 - `class`: Specifica una o più classi CSS per un elemento.
 - `href`: Specifica l'URL di destinazione per i link ipertestuali.
 - `src`: Specifica l'URL di origine per le immagini e altri elementi multimediali.
@@ -72,4 +86,4 @@ Attributi
 - `rows` e `cols`: Specifica il numero di righe e colonne per un elemento `<textarea>`.
 - `aria-*`: Gli attributi ARIA (Accessible Rich Internet Applications) forniscono informazioni aggiuntive sull'accessibilità per gli elementi HTML.
 - `placeholder`: Fornisce un suggerimento di testo per un campo di input.
-- `size`: Specifica la dimensione visibile di un campo di input (ad esempio, per `<input type="text">`).   
+- `size`: Specifica la dimensione visibile di un campo di input (ad esempio, per `<input type="text">`).
